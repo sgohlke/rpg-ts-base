@@ -1,7 +1,7 @@
 import { PlayerAccount, PlayerData } from '../index.ts'
 
 export interface PlayerDataStore {
-   addPlayerAccount(playerAccount: PlayerAccount): Promise<void>
+   addPlayerAccount(playerAccount: PlayerAccount): Promise<string>
    createPlayer(player: PlayerData): Promise<string>
    doesPlayerExist(userName: string): Promise<boolean>
    getAccessTokenForPlayer(playerId: string): Promise<string | undefined>
