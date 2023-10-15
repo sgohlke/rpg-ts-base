@@ -1,8 +1,6 @@
-import { Unit } from '../index.ts'
+import { PlayerData, Unit } from '../index.ts'
 
-export interface Player {
-   playerId: string
-   name: string
+export interface Player extends PlayerData {
    addUnit(unit: Unit): number
    getNumberOfUnits(): number
    getUnit(joinNumber: number): Unit | undefined

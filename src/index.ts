@@ -1,5 +1,6 @@
 export * from './player/Player.ts'
 export * from './player/PlayerAccount.ts'
+export * from './player/PlayerData.ts'
 export * from './player/PlayerDataStore.ts'
 export * from './unit/Status.ts'
 export * from './unit/Unit.ts'
