@@ -1,3 +1,4 @@
+export * from './error/GeneralError.ts'
 export * from './player/Player.ts'
 export * from './player/PlayerAccount.ts'
 export * from './player/PlayerData.ts'
