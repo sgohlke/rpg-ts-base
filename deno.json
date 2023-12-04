@@ -1,6 +1,6 @@
 {
    "tasks": {
-      "coverage": "echo Not used in this project",
+      "coverage": "echo 'Not used in this project'",
       "format": "deno fmt --options-indent-width=3 --options-single-quote --options-no-semicolons",
       "lint": "deno lint"
    }
